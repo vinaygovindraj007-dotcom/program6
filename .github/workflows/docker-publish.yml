@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: csbsdevopslab/node-js
+          images: vinaygovindraj/node-js
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
